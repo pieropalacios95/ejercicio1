@@ -1,0 +1,33 @@
+@api= http://localhost:8000/libro
+### Obtener todos los registros de libros
+GET {{api}}
+### Insertar registro de nuevo libro
+POST {{api}}
+Content-Type: application/json
+
+{
+    "nombre": "Harry Potter 2",
+    "descripcion": "Historia lalala",
+    "autor": "J.K Rowling",
+    "fecha_publicacion": "12-15-2016",
+    "numero_ejemplares":100,
+    "costo":25.50
+}
+### Obtener libro por ID
+GET {{api}}/11
+### Borrar libro por ID
+DELETE {{api}}/10
+### Contar total libros
+GET {{api}}/count
+### Actualizar libro por ID
+PUT {{api}}/11
+Content-Type: application/json
+
+{
+    "nombre": "Harry Potter 2",
+    "descripcion": "Historia lalalala",
+    "autor": "J.K. Rowling",
+    "fecha_publicacion": "12-15-2016",
+    "numero_ejemplares":100,
+    "costo":27.50
+}

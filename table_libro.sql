@@ -12,5 +12,9 @@ CREATE TABLE libro(
 
 SELECT * FROM libro
 
+SELECT * FROM libro WHERE id = 4
+
+DELETE FROM libro WHERE id = 6
+
 INSERT INTO libro (nombre, descripcion, autor, fecha_publicacion, numero_ejemplares, costo) 
 VALUES			  ('Harry Potter 1', 'Historia lalala', 'J.K Rowling', '10-15-2020', 6, 25.90);
