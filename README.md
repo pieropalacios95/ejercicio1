@@ -2,8 +2,8 @@
 El ejercicio y codigo adjuntado a continuacion no cumple al 100% con los requerimientos solicitados
 
 ## Herramientas Utilizadas
-Node.js
-SQL Server
+Node.js\
+SQL Server\
  -SQL Management
 
 ### Ejecuta unicamente el GET del CRUD solicitado
